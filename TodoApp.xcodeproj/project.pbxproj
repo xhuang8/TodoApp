@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B8CD8A8218053A60081FD35 /* todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8CD8A7218053A60081FD35 /* todo.swift */; };
 		0BD85A3B21797BA400B7DF57 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD85A3A21797BA400B7DF57 /* TodoViewController.swift */; };
 		0BD85A3E21798D6500B7DF57 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD85A3D21798D6500B7DF57 /* EditViewController.swift */; };
 		0BE7028C217922A4005CE692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7028B217922A4005CE692 /* AppDelegate.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8CD8A7218053A60081FD35 /* todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo.swift; sourceTree = "<group>"; };
 		0BD85A3A21797BA400B7DF57 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		0BD85A3D21798D6500B7DF57 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		0BE70288217922A4005CE692 /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B8CD8A62180537A0081FD35 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				0B8CD8A7218053A60081FD35 /* todo.swift */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
 		0BE7027F217922A4005CE692 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		0BE7028A217922A4005CE692 /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				0B8CD8A62180537A0081FD35 /* module */,
 				0BE702B9217922E8005CE692 /* ViewController */,
 				0BE7028B217922A4005CE692 /* AppDelegate.swift */,
 				0BE7028F217922A4005CE692 /* Main.storyboard */,
@@ -270,6 +281,7 @@
 				0BD85A3B21797BA400B7DF57 /* TodoViewController.swift in Sources */,
 				0BE7028C217922A4005CE692 /* AppDelegate.swift in Sources */,
 				0BD85A3E21798D6500B7DF57 /* EditViewController.swift in Sources */,
+				0B8CD8A8218053A60081FD35 /* todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
