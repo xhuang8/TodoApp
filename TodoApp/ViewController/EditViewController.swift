@@ -12,6 +12,8 @@ class EditViewController: UIViewController {
 
     @IBOutlet weak var editTextField: UITextField!
     
+    var todoList = todo()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +22,15 @@ class EditViewController: UIViewController {
     
 
     @IBAction func addButton(_ sender: Any) {
+        if let newTask = editTextField.text{
+            if(newTask != "")
+            {
+                todoList.list!.append(newTask)
+                todoList.listMark?.append(-1)
+                todoList.taskSave()
+                editTextField.text = ""
+            }
+        }
     }
     
     
@@ -32,5 +43,13 @@ class EditViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    
+    @IBAction func cancelButton(_ sender: Any) {
+        if(editTextField.text != "")
+        {
+            editTextField.text = ""
+        }
+    }
+    
 }
