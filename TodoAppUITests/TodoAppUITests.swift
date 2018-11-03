@@ -31,4 +31,20 @@ class TodoAppUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    func testAdd(){
+        
+    }
+    
+    func testCancel(){
+        
+    }
+    
+    func testDelete(){
+        
+    }
+    
+    func testEdit(){
+        
+    }
+    
 }
