@@ -2,7 +2,7 @@
 
 **TodoApp** is a to do list app that can list some finished or unfinished events
 
-Time spent: **x** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
@@ -16,8 +16,8 @@ The following **required** user stories are complete:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. click picture to chat
-2. save picture
+1. click picture to check what the task is
+2. add the task's picture
 
 ## Video Walkthrough
 
@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-some instructions about my TodoApp: 
+#some instructions about my TodoApp: 
 
 when the users open the TodoApp, they can see the todo list window which includes all the tasks users have made before. Also, users can mark the tasks to done, and users will see the color become gray and with "☑️" for marking. It means that this task was already done. Next, users can slide the tasks to left, and there will be two options which is edit and delete. The delete for removing the teaks if users don't want that, but edit for editing the task users want to change. After changing and saving, users will see a new changes about previous tasks. Then, users want to add a new task, they just press the button of the upper right corner of navigation bar, users will enter a new interface and choose to add a new task or cancel. If users add a new task and click "add", it will navigate to a todo list window. 
 
